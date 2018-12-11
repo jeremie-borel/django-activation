@@ -1,5 +1,7 @@
-from django.dispatch import Signal
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import
 
+from django.dispatch import Signal
 
 # 'created' Signal fired when the activation key is created.
 activation_created = Signal(providing_args=['activation'])
